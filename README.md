@@ -1,6 +1,13 @@
-# AdventOfCode.Template
+# AdventOfCode2022
+
+My attempt at the [Advent of Code 2022](https://adventofcode.com/2022).
 
 ![CI](https://github.com/eduherminio/AdventOfCode.Template/workflows/CI/badge.svg)
+
+## Credits
+
+Puzzles, Code, & Design of AdventOfCodes : [Eric Wastl](https://twitter.com/ericwastl)
+
 
 Advent of Code template based on [AoCHelper](https://github.com/eduherminio/AoCHelper) project.
 
