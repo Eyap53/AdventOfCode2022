@@ -35,7 +35,7 @@ public class Day01 : BaseDay
     {
         // Shortest but NOT most efficient solution
         List<int> sortedInput = _input.ToList();
-        sortedInput.Sort();
-        return new((sortedInput[sortedInput.Count - 1] + sortedInput[sortedInput.Count - 2] + sortedInput[sortedInput.Count - 3]).ToString());
+        sortedInput.OrderDescending();
+        return new(sortedInput.Take(3).Sum().ToString());
     }
 }
